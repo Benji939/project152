@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="description" content="webVR"/>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="./js/car.js"></script>
+        <script src="./js/base.js"></script>
+        
+    </head>
+    <body>
+        <a-scene>
+            <a-entity id="base" basecomponent>
+
+            </a-entity>
+            <a-entity id="car" carcomponent>
+
+            </a-entity>
+            <a-entity id="camera" position="0 20 -100" camera look-controls wasd-controls>
+                
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
